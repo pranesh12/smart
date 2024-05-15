@@ -102,7 +102,8 @@ a:hover {
   align-items: center;
   justify-content: center;
   border-radius: 100px;
-  padding: 1rem 3.2rem;
+  padding: 1rem 4rem;
+
   background-color: #441355;
   color: #fff;
   border: none;
@@ -123,6 +124,14 @@ a:hover {
 }
 
 .card {
+  max-width: 280px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card2 {
   max-width: 280px;
   background-color: #fff;
   border-radius: 8px;
