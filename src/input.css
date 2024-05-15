@@ -1,6 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
   margin: 0;
@@ -33,6 +36,7 @@ a:hover {
 .thematic,
 .our_services h1 {
   font-size: 50px;
+  font-family: "Roboto Condensed";
 }
 .about_us h1 {
   font-size: 50px;
@@ -40,7 +44,7 @@ a:hover {
 
 .about_us,
 .hero p {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .gradient {
@@ -55,6 +59,7 @@ a:hover {
   padding: 16px 30px;
   border-radius: 25px;
 }
+.hero,
 .about_us,
 .our_clients,
 .testimonial,
