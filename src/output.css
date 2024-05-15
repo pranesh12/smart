@@ -554,10 +554,6 @@ video {
   --tw-contain-style:  ;
 }
 
-.absolute {
-  position: absolute;
-}
-
 .relative {
   position: relative;
 }
@@ -589,6 +585,10 @@ video {
   margin-top: 2.5rem;
 }
 
+.mt-16 {
+  margin-top: 4rem;
+}
+
 .mt-20 {
   margin-top: 5rem;
 }
@@ -603,22 +603,6 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.-mt-4 {
-  margin-top: -1rem;
-}
-
-.-mt-10 {
-  margin-top: -2.5rem;
-}
-
-.-mt-12 {
-  margin-top: -3rem;
-}
-
-.mt-16 {
-  margin-top: 4rem;
 }
 
 .flex {
@@ -695,6 +679,10 @@ video {
 
 .gap-2 {
   gap: 0.5rem;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .gap-5 {
@@ -798,10 +786,6 @@ video {
   padding-top: 1.25rem;
 }
 
-.pt-28 {
-  padding-top: 7rem;
-}
-
 .text-center {
   text-align: center;
 }
@@ -883,14 +867,6 @@ a:hover {
   border-radius: 9999px;
 }
 
-.about_us,
-.hero,
-.thematic,
-.our_services h1 {
-  font-size: 50px;
-  font-family: "Roboto Condensed";
-}
-
 .about_us h1 {
   font-size: 50px;
 }
@@ -918,7 +894,8 @@ a:hover {
 .our_clients,
 .testimonial,
 .thematic,
-.our_services h1 {
+.our_services,
+.team h1 {
   color: #642392 !important;
 }
 
@@ -984,6 +961,7 @@ a:hover {
 
 .button-text {
   font-size: 1rem;
+  left: 5px;
 }
 
 .card {
